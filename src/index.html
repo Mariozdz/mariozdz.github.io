@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Proyecto I - Redes</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="resources/css/style.css">
+  <link rel="stylesheet" href="resources/css/message.css">
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="resources/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="resources/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="resources/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="resources/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="resources/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="resources/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="resources/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="resources/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="resources/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="resources/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="resources/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="resources/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="resources/icons/favicon-16x16.png">
+  <link rel="manifest" href="resources/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="resources/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- CDNs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <header class="header header-style">
+    <h1>Detección de Fuego en Parques Nacionales y Bosques</h1>
+  </header>
+  <nav class="nav nav-style">
+    <ul>
+      <li>
+        <a id="var-1" class="selected">
+          Variable 1
+          <br>
+          Temperatura
+        </a>
+      </li>
+      <li>
+        <a id="var-2">
+          Variable 2
+          <br>
+          Humedad
+        </a>
+      </li>
+      <li>
+        <a id="var-3">
+          Variable 3
+          <br>
+          Ubicación
+        </a>
+      </li>
+      <li>
+        <a id="var-4">
+          Variable 4
+          <br>
+          Precipitación
+        </a>
+      </li>
+      <li>
+        <a id="var-5">
+          Variable 5
+          <br>
+          Viento
+        </a>
+      </li>
+      <li>
+        <a id="var-6">
+          Variable 6
+          <br>
+          Rayería
+        </a>
+      </li>
+      <li>
+        <a id="var-7">
+          Variable 7
+          <br>
+          Luz ultravioleta
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <main class="body body-style">
+    <div class="box" id="canvas"></div>
+    <div class="controls">
+      <div class="slider">
+        <input type="range" min="0" max="100" value="0" id="slider">
+      </div>
+      <div class="buttons">
+        <button class="play-button"><i class="fa fa-play-circle"></i></button>
+        <button class="pause-button"><i class="fa fa-pause-circle"></i></button>
+        <button class="restart-button"><i class="fa fa-retweet"></i></button>
+      </div>
+    </div>
+  </main>
+  <footer class="footer footer-style">
+    <div class="left">
+      Creado por David Guevara Sánchez y Mario Arguello Borge
+    </div>
+    <div class="right">
+      Copyright 2020
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+  <script src="resources/js/animations.js"></script>
+  <script src="resources/js/var1.js"></script>
+  <script src="resources/js/var2.js"></script>
+  <script src="resources/js/var3.js"></script>
+  <script src="resources/js/var4.js"></script>
+  <script src="resources/js/var5.js"></script>
+  <script src="resources/js/var6.js"></script>
+  <script src="resources/js/var7.js"></script>
+  <script src="resources/js/main.js"></script>
+</body>
+</html>
