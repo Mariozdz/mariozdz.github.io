@@ -1,6 +1,6 @@
 $(document).ready(() => {
   console.log("Page has been loaded.");
-  var1();
+  topology();
 });
 function initClick() {
   $("#var-1").prop("onclick", null).off("click");
